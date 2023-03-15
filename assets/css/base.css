@@ -1,0 +1,71 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #1ed760;
+    --text-color: #B3B3B3;
+
+    --navbar-width: 242px;
+    --top-bar-height: 64px;
+    --mainview-heading-height: 340px;
+    --playing-bar-height: 90px;
+
+
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.opacity-color {
+    opacity:.7;
+}
+
+/* Rate like */
+.rate-like {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-right: 24px;
+}
+
+.rate-like:hover {
+    color: var(--white-color);
+}
+
+i.rate-like-icon--fill {
+    display: none;
+    color: var(--primary-color);
+}
+
+
+.song__rate-like.liked i.rate-like-icon--fill {
+    display: inline-block;
+}
+
+
+.song__rate-like.liked i.rate-like-icon--empty {
+    display: none;
+}
+
+.playlist__rate-like.liked i.rate-like-icon--fill {
+    display: inline-block;
+}
+
+.playlist__rate-like.liked i.rate-like-icon--empty {
+    display: none;
+}
+

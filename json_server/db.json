@@ -1,0 +1,94 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "name": "11:11",
+      "singer": "Miina",
+      "path": "./assets/music/song_1.mp3",
+      "img": "./assets/img/img_1.jpeg",
+      "plays": "8,033,494",
+      "album": "11:11",
+      "duration": "4:11"
+    },
+    {
+      "name": "Luôn Yêu Đời",
+      "singer": "Đen",
+      "path": "./assets/music/song_2.mp3",
+      "img": "./assets/img/img_2.jpeg",
+      "plays": "7,959,565",
+      "album": "Luôn Yêu Đời",
+      "duration": "3:54",
+      "id": 2
+    },
+    {
+      "name": "để tôi ôm em bằng giai điệu này",
+      "singer": "Min, KaiDinh",
+      "path": "./assets/music/song_3.mp3",
+      "img": "./assets/img/img_3.jpeg",
+      "plays": "6,905,509",
+      "album": "để tôi ôm em bằng giai điệu này",
+      "duration": "4:24",
+      "id": 3
+    },
+    {
+      "name": "Yêu Anh Đi Mẹ Anh Bán Bánh Mỳ",
+      "singer": "Phúc Du",
+      "path": "./assets/music/song_4.mp3",
+      "img": "./assets/img/img_4.jpeg",
+      "plays": "6,418,640",
+      "album": "Yêu Anh Đi Mẹ Anh Bán Bánh Mỳ",
+      "duration": "4:12",
+      "id": 4
+    },
+    {
+      "name": "Ghệ Iu Dấu",
+      "singer": "TLinh",
+      "path": "./assets/music/song_5.mp3",
+      "img": "./assets/img/img_5.jpeg",
+      "plays": "5,606,026",
+      "album": "Ghệ Iu Dấu",
+      "duration": "3:25",
+      "id": 5
+    },
+    {
+      "name": "Anh Tự Do Nhưng Cô Đơn",
+      "singer": "Trung Quân Idol",
+      "path": "./assets/music/song_6.mp3",
+      "img": "./assets/img/img_6.jpeg",
+      "plays": "4,503,364",
+      "album": "Anh Tự Do Nhưng Cô Đơn",
+      "duration": "5:15",
+      "id": 6
+    },
+    {
+      "name": "Waitting For U",
+      "singer": "Mono",
+      "path": "./assets/music/song_7.mp3",
+      "img": "./assets/img/img_7.jpeg",
+      "plays": "4,264,615",
+      "album": "Waitting For U",
+      "duration": "4:25",
+      "id": 7
+    },
+    {
+      "name": "Muộn Rồi Mà Sao Còn",
+      "singer": "Sơn Tùng MT-P",
+      "path": "./assets/music/song_8.mp3",
+      "img": "./assets/img/img_8.jpeg",
+      "plays": "3,873,834",
+      "album": "Muộn Rồi Mà Sao Còn",
+      "duration": "4:35",
+      "id": 8
+    },
+    {
+      "name": "Cơn Mưa Xa Dần",
+      "singer": "Sơn Tùng MT-P",
+      "path": "./assets/music/song_9.mp3",
+      "img": "./assets/img/img_9.jpeg",
+      "plays": "3,680,691",
+      "album": "Cơn Mưa Xa Dần",
+      "duration": "3:16",
+      "id": 9
+    }
+  ]
+}
