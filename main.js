@@ -48,7 +48,7 @@ const app = {
     isRepeat: false,
     isLiked: false,
 
-    getSong: async function () {
+    getSongs: async function () {
         const resp = await fetch(listAPI);
         const data = await resp.json();
         this.songs = data;
@@ -317,8 +317,8 @@ const app = {
     },
 
     start: async function () {
-        // get data
-        await this.getSong();
+        // Get data song
+        await this.getSongs();
 
         // Render playlist
         this.render();
