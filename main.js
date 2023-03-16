@@ -63,12 +63,12 @@ const app = {
                     <li class="playlist__item ${index === this.currentIndex ? 'active' : ''}" data-index = ${index}>
                         <div class="grid">
                             <div class="row sm-gutters song__info">
-                                <div class="col l-0-5 song__status ">
+                                <div class="col l-0-5 m-1 song__status ">
                                     <span class="song__index">${index + 1}</span>
                                     <i class="song__play-icon fa-solid fa-play"></i>
                                     <i class="song__pause-icon fa-solid fa-pause"></i>
                                 </div>
-                                <div class="col l-4 song">
+                                <div class="col l-4 m-8 song">
                                     <div class="song__thumb"
                                         style="background-image: url('${song.img}')">
                                     </div>
@@ -78,15 +78,15 @@ const app = {
                                     </div>
                                 </div>
     
-                                <div class="col l-3">
+                                <div class="col l-3 m-0">
                                     <span class="song__plays">${song.plays}</span>
                                 </div>
     
-                                <div class="col l-2-5">
+                                <div class="col l-2-5 m-0">
                                     <span class="song__album">${song.album}</span>
                                 </div>
     
-                                <div class="col l-2 song__more">
+                                <div class="col l-2 m-3 song__more">
                                     <span class="rate-like song__rate-like">
                                         <i class="rate-like-icon--fill fa-solid fa-heart"></i>
                                         <i class="rate-like-icon--empty fa-regular fa-heart"></i>

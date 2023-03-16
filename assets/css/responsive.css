@@ -1,0 +1,38 @@
+@media (min-width: 740px) and (max-width: 1023px) {
+    .playlist-info {
+        flex-direction: column;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+
+    .playlist__intro {
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+
+    .playlist__description h1 {
+        --size-album-name: 3.2rem;
+        margin: 4px 0;
+    }
+
+    i.song__play-icon {
+        display: block;
+    }
+
+    .playlist__item.active i.song__play-icon {
+        display: none;
+    }
+
+    .song__index {
+        display: none;
+    }
+
+    .playlist__list .playlist__item .song__rate-like,
+    .playlist__list .playlist__item .song__option-icon {
+        display: block;
+    }
+
+    .current-song .rate-like {
+        margin-left: 48px;
+    }
+}
