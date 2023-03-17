@@ -1,3 +1,4 @@
+/* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
     .playlist-info {
         flex-direction: column;
@@ -35,4 +36,25 @@
     .current-song .rate-like {
         margin-left: 48px;
     }
+}
+
+/* Phone */
+@media (max-width: 739px) {
+    .navbar {
+        display: none;
+    }
+
+    .playlist-heading {
+        display: block;
+        text-align: center;
+    }
+
+    .playlist__description .playlist__title,
+    .playlist__description h1,
+    .playlist-info {
+        display: none;
+    }
+
+    
+
 }
