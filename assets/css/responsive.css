@@ -44,6 +44,11 @@
         display: none;
     }
 
+    .user .user__id,
+    .user .user__option-icon {
+        display: none;
+    }
+
     .playlist-heading {
         display: block;
         text-align: center;
@@ -55,6 +60,8 @@
         display: none;
     }
 
-    
+    .current-song {
+        display: none;
+    }
 
 }
